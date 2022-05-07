@@ -4,6 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        Montserrat: "'Montserrat', sans-serif",
+        Raleway: "'Raleway', sans-serif",
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -18,13 +24,18 @@ module.exports = {
       backgroundEscritorio1: "rgba(88, 86, 118, 1)",
       backgroundEscritorio2: "rgba(110, 112, 122, 1)",
       backgroundEscritorio3: "rgba(255, 255, 255, 0.2)",
-      backgroundSidebar: "rgba(60, 71, 233, 1)"
+      backgroundSidebar: "rgba(60, 71, 233, 1)",
+      borderOpaciti: "rgba(97, 100, 117, 1)",
+      search: " rgba(110, 112, 122, 1)",
+      icons: "rgba(110, 112, 122, 0.3)",
+      backgroundf: "rgba(88, 86, 118, 1)"
+
     },
     screens: {
       'sm': '335px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '968px',
+      'md': '1160px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
