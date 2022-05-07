@@ -5,7 +5,7 @@ import Nieve from '../public/Sleet.png'
 import Shower from "../public/Shower.png"
 import { MdOutlineGpsFixed } from 'react-icons/md';
 import { BiSearchAlt2 } from 'react-icons/bi';
-import { IoMdClose } from 'react-icons/Io';
+import { VscChromeClose } from 'react-icons/vsc';
 import { MdLocationOn } from 'react-icons/md';
 import { RiTelegramLine } from 'react-icons/ri';
 import Rayos from '../public/HeavyRain.png'
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <div className={` absolute  bg-white font-Raleway z-auto  left-0 right-0 transition-all duration-500 ease-in ${open ? 'top-0 ' : 'top-[-490px]'}`}>
 
           <div className='flex  flex-row justify-end py-4  text-2xl'>
-            <IoMdClose onClick={() => setOpen(!open)} className='text-backgroundMobil1 text-3xl cursor-pointer hover:opacity-70' />
+            <VscChromeClose onClick={() => setOpen(!open)} className='text-backgroundMobil1 text-3xl cursor-pointer hover:opacity-70' />
           </div>
           <div className="flex items-center justify-between pb-6">
             <div className='relative '>
